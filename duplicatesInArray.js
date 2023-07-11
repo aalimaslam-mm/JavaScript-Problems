@@ -10,3 +10,7 @@ function duplicate(arr){
   return duplicate
 }
 
+function duplicateRem(arr){
+  let newArr = new Set([...arr])
+  return newArr
+}
